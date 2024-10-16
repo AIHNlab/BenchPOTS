@@ -15,6 +15,8 @@ from .physionet_2019 import preprocess_physionet2019
 from .ucr_uea_datasets import preprocess_ucr_uea_datasets
 from .solar_alabama import preprocess_solar_alabama
 from .random_walk import preprocess_random_walk
+from .isphyncs_biometrics import preprocess_isphyncs_biometrics
+from .blood_glucose_ohio import preprocess_blood_glucose_ohio_2018, preprocess_blood_glucose_ohio_2020
 
 __all__ = [
     "preprocess_physionet2012",
@@ -27,4 +29,7 @@ __all__ = [
     "preprocess_ucr_uea_datasets",
     "preprocess_solar_alabama",
     "preprocess_random_walk",
+    "preprocess_isphyncs_biometrics",
+    "preprocess_blood_glucose_ohio_2018",
+    "preprocess_blood_glucose_ohio_2020"
 ]
