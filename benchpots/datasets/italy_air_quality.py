@@ -71,6 +71,7 @@ def preprocess_italy_air_quality(
         "n_steps": n_steps,
         "n_features": len(features),
         "scaler": scaler,
+        "main_freq": data['main_freq'],
         # train set
         "train_X": train_X,
         # val set

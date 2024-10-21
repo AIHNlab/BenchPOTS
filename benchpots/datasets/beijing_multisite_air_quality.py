@@ -112,6 +112,7 @@ def preprocess_beijing_air_quality(
         "n_steps": n_steps,
         "n_features": train_X.shape[-1],
         "scaler": scaler,
+        "main_freq": data['main_freq'],
         # train set
         "train_X": train_X,
         # val set

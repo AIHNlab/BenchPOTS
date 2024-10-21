@@ -196,6 +196,7 @@ def _preprocess_blood_glucose_ohio(
         "n_steps": n_steps,
         "n_features": train_X.shape[-1],
         "scaler": scaler,
+        "main_freq": data['main_freq'],
         # train set
         "train_X": train_X,
         "train_X_source": train_X_source,
